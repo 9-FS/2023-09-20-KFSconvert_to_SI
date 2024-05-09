@@ -32,13 +32,13 @@ files = [
 
 [[package]]
 name = "hypothesis"
-version = "6.100.2"
+version = "6.100.5"
 description = "A library for property-based testing"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "hypothesis-6.100.2-py3-none-any.whl", hash = "sha256:4ae5918f5a47f979e53fe9e8be4ba6edf17d7a133c13542938d8a6e18f890a2a"},
-    {file = "hypothesis-6.100.2.tar.gz", hash = "sha256:7d68e45d371cee5b9d2236516341aca57fb7f2cfabef6cb9e5b3a7ec62219cf2"},
+    {file = "hypothesis-6.100.5-py3-none-any.whl", hash = "sha256:d2f875a8791abdf68599e85cc9238f7239a73b72362d34be95e532e811766723"},
+    {file = "hypothesis-6.100.5.tar.gz", hash = "sha256:14e06081459ee96ca8f1ed996b6fc19f71910281e01f6a9fa3d9d6e68bbe4a25"},
 ]
 
 [package.dependencies]
@@ -75,44 +75,44 @@ files = [
 
 [[package]]
 name = "kfsfstr"
-version = "1.1.0"
+version = "1.1.2"
 description = ""
 optional = false
-python-versions = ">=3.11.0,<4.0.0"
+python-versions = "<4.0.0,>=3.12.0"
 files = [
-    {file = "kfsfstr-1.1.0-py3-none-any.whl", hash = "sha256:ee96067a97df0607a6d547ebb5b9228a8d61273451451f1e276d4c8b318db836"},
-    {file = "kfsfstr-1.1.0.tar.gz", hash = "sha256:5db73b876efb481ca2d1d26ac129a35d5524e1fe3d275aaa3c513a396cb04621"},
+    {file = "kfsfstr-1.1.2-py3-none-any.whl", hash = "sha256:effb79562013d3a84c878ec94252d52f5af4d9eb02183073b04fc584e5a958eb"},
+    {file = "kfsfstr-1.1.2.tar.gz", hash = "sha256:8d4f2d5fa2240f58276f9048e0a6bafcaa3b9e4742db159631ee6d85fab23a2c"},
 ]
 
 [package.dependencies]
-colorama = ">=0.4.6,<0.5.0"
-kfslog = ">=1.0.0,<2.0.0"
+colorama = ">=0.4.0,<0.5.0"
 kfsmath = ">=1.0.0,<2.0.0"
 
 [[package]]
 name = "kfslog"
-version = "1.0.1"
+version = "2.0.0"
 description = ""
 optional = false
-python-versions = ">=3.11.0,<4.0.0"
+python-versions = "<4.0.0,>=3.12.0"
 files = [
-    {file = "kfslog-1.0.1-py3-none-any.whl", hash = "sha256:e9c5b59282c453cc9b38c251220281fba28fb955c0e9fadf920bb29c30bd6cd9"},
-    {file = "kfslog-1.0.1.tar.gz", hash = "sha256:db1237d6704d09e7adc7ec798df01a281fcc5282bc3b81104d87b9607a42f03f"},
+    {file = "kfslog-2.0.0-py3-none-any.whl", hash = "sha256:cd2b4b2aedb14c7fba8cf4eec94243052fa8e8d6d241fda0586a52e1e9a80d11"},
+    {file = "kfslog-2.0.0.tar.gz", hash = "sha256:79dbe8c0471acb724faca3ea8d330a98c0bee2fa53dd6cb57b131452a99dcab1"},
 ]
 
 [package.dependencies]
 colorama = ">=0.4.6,<0.5.0"
-KFSfstr = ">=1.0.0,<2.0.0"
+kfsfstr = ">=1.1.0,<2.0.0"
+result = ">=0.16.0,<0.17.0"
 
 [[package]]
 name = "kfsmath"
-version = "1.0.1"
+version = "1.0.2"
 description = ""
 optional = false
-python-versions = ">=3.11.0,<4.0.0"
+python-versions = "<4.0.0,>=3.12.0"
 files = [
-    {file = "kfsmath-1.0.1-py3-none-any.whl", hash = "sha256:c5cccef537e10293cd1ac6f0e952fb31e97f5d60d133e43a6a34a2f3122457e8"},
-    {file = "kfsmath-1.0.1.tar.gz", hash = "sha256:bd28030eeffcad0880ea7955ca7e4fb94f23496714a4f54a75867268eba25e55"},
+    {file = "kfsmath-1.0.2-py3-none-any.whl", hash = "sha256:03f4fefb420e014faa822e6af5a231023616a8d3d863138fd0f2b8bcbee68b4e"},
+    {file = "kfsmath-1.0.2.tar.gz", hash = "sha256:f2e74102132500c6738c918d0029cd3810c3473cec1ebaebe2df082a66fcde7a"},
 ]
 
 [[package]]
@@ -143,23 +143,34 @@ testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
 name = "pytest"
-version = "7.4.4"
+version = "8.2.0"
 description = "pytest: simple powerful testing with Python"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "pytest-7.4.4-py3-none-any.whl", hash = "sha256:b090cdf5ed60bf4c45261be03239c2c1c22df034fbffe691abe93cd80cea01d8"},
-    {file = "pytest-7.4.4.tar.gz", hash = "sha256:2cf0005922c6ace4a3e2ec8b4080eb0d9753fdc93107415332f50ce9e7994280"},
+    {file = "pytest-8.2.0-py3-none-any.whl", hash = "sha256:1733f0620f6cda4095bbf0d9ff8022486e91892245bb9e7d5542c018f612f233"},
+    {file = "pytest-8.2.0.tar.gz", hash = "sha256:d507d4482197eac0ba2bae2e9babf0672eb333017bcedaa5fb1a3d42c1174b3f"},
 ]
 
 [package.dependencies]
 colorama = {version = "*", markers = "sys_platform == \"win32\""}
 iniconfig = "*"
 packaging = "*"
-pluggy = ">=0.12,<2.0"
+pluggy = ">=1.5,<2.0"
 
 [package.extras]
-testing = ["argcomplete", "attrs (>=19.2.0)", "hypothesis (>=3.56)", "mock", "nose", "pygments (>=2.7.2)", "requests", "setuptools", "xmlschema"]
+dev = ["argcomplete", "attrs (>=19.2)", "hypothesis (>=3.56)", "mock", "pygments (>=2.7.2)", "requests", "setuptools", "xmlschema"]
+
+[[package]]
+name = "result"
+version = "0.16.1"
+description = "A Rust-like result type for Python"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "result-0.16.1-py3-none-any.whl", hash = "sha256:47598bb9bde342251f5b0f49e3637cd30dc144c086b29dc58fff458477650669"},
+    {file = "result-0.16.1.tar.gz", hash = "sha256:379f0233cdf8cf157588c77bb2ab1ac367431d9bf6e8456a336b026d528cee0d"},
+]
 
 [[package]]
 name = "sortedcontainers"
@@ -174,5 +185,5 @@ files = [
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.11.0"
-content-hash = "af36701a445e910a8154b8772c1a7a03a559c0b570593b77674b3c8c89fb1288"
+python-versions = "^3.12.0"
+content-hash = "52e84bc2e08deb8f7788108003903c0a08169ff43ae791a1847542eb8f4ba378"
